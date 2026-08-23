@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image
 import random
 
-st.set_page_config(page_title="သီးရို့လှိုင် AI Scanner", page_icon="🎭")
+st.set_page_config(page_title="သီးရိလှိုင် AI Scanner", page_icon="🎭")
 
-st.title("🎭 သီးရို့လှိုင် AI Scanner")
+st.title("🎭 သီးရိလှိုင် AI Scanner")
 st.write("ဓာတ်ပုံတင်ပြီး စိတ်ခံစားချက်ကို စကင်ဖတ်ကြည့်ပါ!")
 
 uploaded_file = st.file_uploader("ဓာတ်ပုံတစ်ပုံ ရွေးပေးပါ...", type=["jpg", "jpeg", "png"])
